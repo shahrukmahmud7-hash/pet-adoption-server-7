@@ -66,7 +66,7 @@ async function run() {
 
         const query = {};
 
-        // Search by pet name
+        // Search by pet name 
         if (search) {
           query.petName = {
             $regex: search,
